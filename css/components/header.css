@@ -1,0 +1,18 @@
+.main-header{
+    color:white;
+    font-size:20px;
+
+}
+
+.main-header {
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.main-header .main-nav-item {
+    text-decoration:none;
+    line-height: 125%;
+    display:none;
+}
+

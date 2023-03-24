@@ -1,0 +1,14 @@
+.footer{
+    padding:40px 0;
+
+}
+
+.footer .socials {
+    display: flex;
+    gap:20px;
+    justify-content: space-between;
+}
+
+.copyright{
+    font-size:20px;
+}

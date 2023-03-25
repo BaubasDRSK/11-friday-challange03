@@ -36,6 +36,9 @@
         display:flex;
     }
 
+    .logo{
+        width:187px;
+    }
     .hamburger{
         display:none;
     }

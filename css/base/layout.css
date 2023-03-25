@@ -22,14 +22,28 @@ body{
    
 }
 
+.section.main-header{
+    flex-direction: row;
+    gap:15px;
+
+    
+}
+
 .section-img{
     width:100%;
 }
 
 /* section flexing  or floating options */
-.centered{
+.section.centered{
     display:flex;
     align-items: center;
+    flex-direction:column;
+}
+
+.centered{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
 }
 
 .align-left{
@@ -40,4 +54,20 @@ body{
 .align-right{
     align-items: end;
 
+}
+
+@media (min-width:600px){
+    .main-header, .section, .footer {
+        width:100%;
+        padding:0 9vw;
+       
+    }
+
+    .main-header{
+        margin-top:35px;
+    }
+
+    .section{
+        flex-direction: row;
+    }
 }

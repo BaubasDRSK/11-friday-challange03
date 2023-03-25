@@ -12,7 +12,10 @@ Site published at: https://baubasdrsk.github.io/11-friday-challange03/
 
 Design target: [Design in Figma](https://www.figma.com/file/V1JPQMZa66Mk53vnN5tvaM/FE-(3-week-practice)?node-id=106-656&t=MtXCrvEtMu4f8cal-0)
 
-![design](https://raw.githubusercontent.com/BaubasDRSK/09-sunday-web-design/master/targe-visual.jpg)
+[Deskotop example](https://raw.githubusercontent.com/BaubasDRSK/11-friday-challange03/master/samples/Desktop%20-%201440.jpg)
+
+[Mobile example](https://raw.githubusercontent.com/BaubasDRSK/11-friday-challange03/master/samples/mobile-375.jpg)
+
 ___
 ## 🎯 Project features/goals
 

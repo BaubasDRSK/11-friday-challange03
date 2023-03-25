@@ -13,6 +13,12 @@
 .main-header .main-nav-item {
     text-decoration:none;
     line-height: 125%;
-    display:none;
+    color: white;
+    
+    
 }
 
+.main-navigation{
+    display:none;
+
+}

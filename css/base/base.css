@@ -1,7 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;700&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@600;700&display=swap');
 
+/* basic base setting */
 
 body, body * {
     margin: 0;
@@ -14,17 +15,21 @@ body, body * {
 
 body {
     font-family: 'Work Sans', sans-serif;
+    font-weight:300;
+    background-color:#74C69D;
 }
 
-h1, h2, h3, h5, h6 {
+
+/* besic style in whole web page */
+/* section and artile title styles */
+.title {
     font-family: 'Crimson Text', serif;
+    font-weight: 600;
 }
 
-h2 {
-    font-size: 28px;
-}
-
-h4{
+.section-title {
+    font-size: 24px;
+    margin:15px 0;
     font-family: 'Work Sans', sans-serif;
     font-size: 16px;
     line-height: 125%;
@@ -33,33 +38,27 @@ h4{
     margin: 15px 0;
 }
 
-
-
-body{
-    background-color:#74C69D;
-;
-}
-
 .paragraph {
     font-size:15px;
     font-weight:400;
 }
 
+/* color wariations> text and background */
 .green-text{
     color:#74C69D;
 }
 
-.green {
+.greenbg {
     color:white;
     background-color: #74C69D;
 }
 
-.white{
+.whitebg{
     background-color: white;
     color:black;
 }
 
-.black{
+.blackbg{
     background-color:black;
     color:white;
 }
@@ -71,4 +70,20 @@ body{
     margin:20px 0;
     font-size:20px;
     border-radius:5px;
+}
+
+
+
+@media (min-width:600px){
+   
+   
+    .main-header .main-navigation{
+        display: flex;
+        gap:20px;
+        justify-content: space-between;
+    }
+    
+    .hamburger{
+        display:none;
+    }
 }

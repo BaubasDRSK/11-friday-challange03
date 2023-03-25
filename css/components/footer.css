@@ -7,10 +7,12 @@
     display: flex;
     gap:20px;
     justify-content: space-between;
+    width:242px;
 }
 
 .copyright{
     font-size:20px;
+    text-align: center;
 }
 
 

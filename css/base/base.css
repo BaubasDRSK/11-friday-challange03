@@ -16,7 +16,7 @@ body, body * {
 body {
     font-family: 'Work Sans', sans-serif;
     font-weight:300;
-    background-color:#74C69D;
+ 
 }
 
 
@@ -24,14 +24,15 @@ body {
 /* section and artile title styles */
 .title {
     font-family: 'Crimson Text', serif;
-    font-weight: 600;
+    font-weight: 700;
+    font-size: 28px;
 }
 
 .section-title {
-    font-size: 24px;
-    margin:15px 0;
+    display:inline-block;
     font-family: 'Work Sans', sans-serif;
     font-size: 16px;
+    font-weight:700;
     line-height: 125%;
     text-transform: uppercase;
     letter-spacing: 0.3em;
@@ -66,26 +67,10 @@ body {
 .btn{
     display: inline-block;
     text-decoration: none;
-    padding:13px 47px;
+    padding:13px 29.5px 10px 29.5px;
     margin:20px 0;
     font-size:20px;
     border-radius:5px;
+    text-transform: capitalize;
 }
 
-
-
-@media (min-width:600px){
-   
-   
-    .main-header .main-navigation{
-        display: flex;
-        gap:20px;
-        justify-content: space-between;
-    }
-    
-    .hamburger{
-        display:none;
-    }
-
-    
-}

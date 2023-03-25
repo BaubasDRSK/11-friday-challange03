@@ -1,7 +1,6 @@
 /* base */
 @import '../base/base.css';
 @import '../base/layout.css';
-@import '../base/media.css';
 /* 3rd-party */
 @import '../3rd-party/font-awesome.min.css';
 /* components */
@@ -9,12 +8,81 @@
 @import '../components/header.css';
 /* CUSTOM STYLE */
 
-
-/* hero tweaks */
-.hero .title {
-
+/* header info */
+.main-header{
+    margin-top:17px;
 }
 
+/* hero tweaks */
+.hero{
+    margin-top:32px;
+}
 
+.hero .paragraph{
+    color:#FfffFFBF
+   
+}
 
-/*  */
+.hero .title {
+    margin-bottom:15px;
+}
+
+/* Partners and settings */
+.partners .section-title{
+    margin-top:22px;
+    margin-bottom:0;
+}
+.partners .title{
+    font-size:24px;
+    margin:16px 0;
+}
+
+.partners .paragraph{
+    font-size:20px;
+    line-height:125%;
+    text-align: center;
+    margin-bottom: 56px;
+}
+
+.partners .section-img {
+    gap:40px;
+}
+
+.partners.section {
+    gap:5px;
+    margin-bottom:30px;
+}
+
+/* meeting and creative settings */
+
+.meeting.section, .creative.section{
+    margin-top:30px;
+    margin-bottom:30px;
+}
+
+.meeting .title, .creative .title {
+    font-size:24px;
+    margin-bottom:20px;
+}
+
+.meeting .paragraph, .creative .paragraph {
+    color:rgba(0,0,0,0.5)
+}
+
+/* Team settings */
+.team .section-title{
+    margin-top:5px;
+    margin-bottom:0;
+}
+
+.team .title{
+    font-size:24px;
+    margin:16px 0;
+}
+
+.team .paragraph{
+    font-size:20px;
+    line-height:125%;
+    text-align: center;
+    margin-bottom: 56px;
+}

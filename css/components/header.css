@@ -19,6 +19,27 @@
 }
 
 .main-navigation{
+    gap:30px;
     display:none;
+}
 
+.main-nav-item{
+    font-size:20px;
+}
+
+.main-nav-item:hover {
+    text-decoration:underline;
+}
+
+@media (min-width:1200px){
+    .main-navigation{
+        display:flex;
+    }
+
+    .logo{
+        width:187px;
+    }
+    .hamburger{
+        display:none;
+    }
 }

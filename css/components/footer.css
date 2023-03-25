@@ -16,3 +16,8 @@
 }
 
 
+@media (min-width:1200px){
+    .footer.section{
+        flex-direction: row;;
+    }
+}

@@ -1,16 +1,11 @@
 /* body flex to position main sections */
+
 body{
     display:flex;
     flex-direction: column;
     align-items:center;
 
 }
-
-/* basic mobile view width.. */
-/* .main-header, .section, .footer {
-    padding:0 20px;
-    margin: 17px 0;
-} */
 
 /* basic section behavior */
 .section-wraper{
@@ -22,14 +17,12 @@ body{
     gap:15px;
     flex-direction: column;
     margin:0 20px;
-   
+    max-width: 1400px;
 }
 
 .section.main-header{
     flex-direction: row;
     gap:15px;
-
-    
 }
 
 .section-img{
@@ -37,11 +30,11 @@ body{
 }
 
 /* section flexing  or floating options */
-.section.centered{
+ .section.centered{
     display:flex;
     align-items: center;
     flex-direction:column;
-}
+} 
 
 .centered{
     display:flex;
@@ -51,10 +44,41 @@ body{
 
 .align-left{
     align-items: start;
-
 }
 
 .align-right{
     align-items: end;
-
 }
+
+
+/* ******* */
+/* @media */
+/* ***** */
+
+@media (min-width:580px){
+    .section-img{
+        width:60%;
+        align-self:center ;
+    }
+    .align-left, .align-right {
+        align-items: center;
+    }
+}
+
+@media (min-width:1000px){
+    .section-img{
+        width:40%;
+        align-self:center ;
+    }
+    .section-wraper{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .section{
+        width: 82%;
+    }
+}
+

@@ -7,6 +7,12 @@ body{
 
 }
 
+.main-content {
+    width:100%;
+    margin:0;
+    padding:0;
+ }
+
 /* basic section behavior */
 .section-wraper{
     width:100%;
@@ -17,12 +23,6 @@ body{
     gap:15px;
     flex-direction: column;
     margin:0 20px;
-    max-width: 1400px;
-}
-
-.section.main-header{
-    flex-direction: row;
-    gap:15px;
 }
 
 .section-img{
@@ -51,9 +51,9 @@ body{
 }
 
 
-/* ******* */
-/* @media */
-/* ***** */
+/* ******* *****************************************************/
+/* MEDIAS-widths ************************************************/
+/* ***** *****************************************************/
 
 @media (min-width:580px){
     .section-img{
@@ -70,7 +70,7 @@ body{
         width:40%;
         align-self:center ;
     }
-    .section-wraper{
+    .section-wrapper{
         display:flex;
         flex-direction: column;
         justify-content: center;

@@ -1,21 +1,24 @@
-.main-header{
+.header-wrapper{
+    width:100%;
+    display:flex;
+    justify-content: center;
+}
+.main-header {
+    width:100%;
     color:white;
     font-size:20px;
-
-}
-
-.main-header {
     display:flex;
     justify-content: space-between;
     align-items:center;
+    flex-direction: row;
+    gap:15px;
 }
 
 .main-header .main-nav-item {
     text-decoration:none;
-    line-height: 125%;
-    color: white;
-    
-    
+    line-height: 125%;   
+    color:white;
+    text-decoration:none;
 }
 
 .main-navigation{
@@ -23,12 +26,18 @@
     display:none;
 }
 
-.main-nav-item{
-    font-size:20px;
-}
-
 .main-nav-item:hover {
     text-decoration:underline;
+}
+
+
+/* ******************************MEDIA********************************* */
+@media (min-width:580px){
+    .main-header{width:60%;}
+}
+
+@media (min-width:1000px){
+    .main-header{width:52%;}
 }
 
 @media (min-width:1200px){

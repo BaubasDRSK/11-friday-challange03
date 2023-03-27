@@ -6,21 +6,19 @@
 /* components */
 @import '../components/footer.css';
 @import '../components/header.css';
+@import '../components/button.css';
 /* CUSTOM STYLE */
 
 /* header info */
 .main-header{
     margin-top:17px;
+    margin-bottom:32px;
 }
 
 /* hero tweaks */
-.hero{
-    margin-top:32px;
-}
 
 .hero .paragraph{
-    color:#FfffFFBF
-   
+    color:#FfffFFBF;
 }
 
 .hero .title {

@@ -44,7 +44,7 @@
     gap: 20px;
 }
 
-.hamburger:hover .mobile-navigation {
+.hamburger:focus .mobile-navigation {
     display:flex;
 }
 
